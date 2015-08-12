@@ -1,3 +1,7 @@
+# generated output
+nodes.json
+graph.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
