@@ -3,12 +3,7 @@ import os
 import json
 import urllib.request
 
-# config_start
-nodes_json_url = 'http://hannover.freifunk.net/meshviewer/nodes.json'
-graph_json_url = 'http://hannover.freifunk.net/meshviewer/graph.json'
-
-site_codes = ['ffi']
-# config_end
+from config import *
 
 try:
     nodes_request = urllib.request.Request(nodes_json_url)

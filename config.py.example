@@ -1,0 +1,8 @@
+#!/bin/python3
+
+# The urls to the relevant json files of the metacommunity
+nodes_json_url = 'http://hannover.freifunk.net/meshviewer/nodes.json'
+graph_json_url = 'http://hannover.freifunk.net/meshviewer/graph.json'
+
+# a list of site codes, that shall be shown on the map
+site_codes = ['ffi']
